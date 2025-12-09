@@ -1,6 +1,8 @@
 # Added FIFO algorithm
 # Simple Page Replacement Simulator: FIFO, LRU, Optimal
 # Usage: python3 page_replacement.py
+# feature test edit
+
 
 def fifo(pages, frames, verbose=False):
     memory = []
@@ -115,4 +117,5 @@ def main():
 if __name__ == "__main__":
     main()
 # End of project
+
 
