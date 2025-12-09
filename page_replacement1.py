@@ -20,6 +20,7 @@ def fifo(pages, frames, verbose=False):
             frame_states.append(list(memory))
     return faults, frame_states
 
+# LRU algorithm
 def lru(pages, frames, verbose=False):
     memory = []
     faults = 0
